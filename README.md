@@ -1,1 +1,101 @@
 # App-vs-Website-Optimization
+
+# StyleSync: A Data-Driven UX & Revenue Optimization Project
+
+## Project Objective
+
+This project was developed for *StyleSync*, a fictional online fashion retailer offering personalized in-store styling followed by online purchasing through a mobile app or desktop website. The business goal was to determine which platform—**mobile or web**—should be prioritized for user experience (UX) improvements in order to maximize customer lifetime value (CLV) and drive revenue.
+
+---
+
+## Phase 1: Regression Analysis – Understanding Revenue Drivers
+
+We began with an exploratory regression analysis to understand what behavioral metrics most influence yearly revenue:
+
+* **Simple Linear Regression:**
+
+  * Feature: `Length of Membership`
+  * Result: Cross-validated R² = **0.655**
+  * Insight: Longer-tenured customers generate significantly more revenue.
+
+* **Multiple Linear Regression:**
+
+  * Features: `Time on App`, `Time on Website`, `Avg. Session Length`, `Length of Membership`
+  * Result: Cross-validated R² = **0.983**
+  * Insight: `Time on App` is a far stronger predictor of revenue than `Time on Website`, suggesting that mobile users are more engaged and profitable.
+
+These findings informed our next step: validating whether web experience optimization could still offer revenue lift, despite app superiority in engagement.
+
+---
+
+## Phase 2: CLV Benchmarking – Measuring Business Impact
+
+Using the pre-A/B test dataset, we calculated Customer Lifetime Value (CLV):
+
+* **Pre-Test CLV:**
+
+  * Avg. Yearly Spend: \$499.31
+  * Avg. Membership Duration: 3.5 months
+  * Resulting CLV: **\$147.03**
+
+Post-A/B test, treatment group behavior suggested increased revenue:
+
+* **Post-Test CLV:**
+
+  * Avg. Yearly Spend (treatment): \$554.22
+  * Resulting CLV: **\$163.19**
+
+This **\~11% lift in CLV** proved the potential of small UX tweaks to yield measurable gains.
+
+---
+
+## Phase 3: A/B Test – Simplifying the Checkout Flow
+
+We hypothesized that removing the “Similar Items” carousel on the **website** would reduce distraction and improve conversion.
+
+* **Statistical Significance:** Achieved at α = 0.05
+* **Practical Significance:** Monthly lift of \$4.95 exceeds 5% MDE
+* **Guardrail Metrics:** No negative impact on retention
+
+This reinforced our model findings: **UX friction on web impacts revenue**, and optimizing checkout clarity benefits the business.
+
+---
+
+## Persona-Centric Insights: Maya the Buyer
+
+We anchored our analysis around *Maya*, a busy professional who values efficient, curated shopping experiences. Her preferences reflected those of high-intent users who quickly convert if the experience is seamless.
+
+Maya’s behavior helped validate our UX changes and informed our platform-specific recommendations.
+
+---
+
+## Final Recommendation
+
+Despite the mobile app’s stronger baseline performance, the A/B test revealed that **modest UX improvements to the website** still yield high returns. We recommend:
+
+* **Rolling out the simplified checkout** experience across all web users
+* Continuing investment in mobile engagement based on regression findings
+* Using CLV as a recurring metric for future UX evaluations
+
+---
+
+## Files in This Repository
+
+* `Ecommerce Regression Model.ipynb` – Exploratory regression analysis
+* `AB Test.ipynb` – Experimental design and treatment evaluation
+* `README.md` – Project overview, results, and business implications
+
+---
+
+## Tools Used
+
+* Python (pandas, sklearn, matplotlib, seaborn)
+* Jupyter Notebooks
+* Experimental Design & Statistical Testing
+
+---
+
+## Author
+
+**Ellen Ivanovic**
+Product & Data Analyst | Portfolio: [Notion Site](https://stripe-isthmus-96c.notion.site/ELLEN-IVANOVIC-PORTFOLIO-17d68abd1c54801f8dcaf90782ee656d)
