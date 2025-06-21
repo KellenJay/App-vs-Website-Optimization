@@ -72,6 +72,24 @@ We anchored our analysis around *Maya*, a busy professional who values efficient
 Maya’s behavior helped validate our UX changes and informed our platform-specific recommendations.
 
 ---
+## Key UX & Business Trade-Offs
+
+- **Upselling vs. Efficiency**  
+  Reducing friction boosts conversions for high-intent users, but may limit upsell potential.
+
+- **Short-Term vs. Long-Term Engagement**  
+  Faster checkouts drive immediate revenue, but can lower product discovery.
+
+- **Simplicity vs. Experience Depth**  
+  Clean design improves usability, but risks diminishing browsing richness.
+
+- **Personalization vs. Operational Complexity**  
+  Tailored UX improves outcomes, but adds design and maintenance overhead.
+
+- **Confidence vs. Scalability Risk**  
+  A/B test wins may not hold at scale without ongoing validation.
+
+---
 
 ## Final Recommendation
 
