@@ -6,6 +6,10 @@
 
 This project was developed for *StyleSync*, a fictional online fashion retailer offering personalized in-store styling followed by online purchasing through a mobile app or desktop website. The business goal was to determine which platform—**mobile or web**—should be prioritized for user experience (UX) improvements in order to maximize customer lifetime value (CLV) and drive revenue.
 
+This end-to-end case study centers on **Maya**, a fictional persona representing a real-world shopper who begins her journey with a 30 minute in-store style consultation and completes her purchase online via app or website. While it’s common for e-commerce platforms to include product carousels during checkout to increase cart size, this project explores a more nuanced use case: customers like Maya, who have already received personalized recommendations from a stylist.
+
+For these high-intent users, reducing cognitive load and streamlining checkout proved more effective. Through predictive modeling, behavioral segmentation, and A/B testing, we simulate a real-world data product workflow to guide context-aware digital design and investment decisions in retail.
+
 ---
 
 ## Phase 1: Regression Analysis – Understanding Revenue Drivers
@@ -73,7 +77,7 @@ Maya’s behavior helped validate our UX changes and informed our platform-speci
 
 Despite the mobile app’s stronger baseline performance, the A/B test revealed that **modest UX improvements to the website** still yield high returns. We recommend:
 
-* **Rolling out the simplified checkout** experience across all web users
+* **Rolling out the simplified checkout** experience for this user segment; those who received curated recommendations during in-store consultations.
 * Continuing investment in mobile engagement based on regression findings
 * Using CLV as a recurring metric for future UX evaluations
 
@@ -92,6 +96,7 @@ Despite the mobile app’s stronger baseline performance, the A/B test revealed 
 * Python (pandas, sklearn, matplotlib, seaborn)
 * Jupyter Notebooks
 * Experimental Design & Statistical Testing
+* Figma
 
 ---
 
