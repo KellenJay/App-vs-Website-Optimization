@@ -103,4 +103,4 @@ Despite the mobile app’s stronger baseline performance, the A/B test revealed 
 ## Author
 
 **Ellen Ivanovic**
-Product & Data Analyst | Portfolio: [Notion Site](https://stripe-isthmus-96c.notion.site/ELLEN-IVANOVIC-PORTFOLIO-17d68abd1c54801f8dcaf90782ee656d)
+Product & Data Analyst 
